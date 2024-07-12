@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Banking System</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+   
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+</head>
+<body onload="loader()">
+
+  <div id="loading"></div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand" href="./index.html">THE GRIP BANK</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./customers.html">Customers</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid hero-content">
+      <div class="row align-items-center">
+        <div class="col-md-6 col-sm-12 text-center" data-aos="fade-up">
+          <h1>Financial transactions</h1>
+          <p class="lead muted">"Effortlessly move your funds with confidence and security. 
+            Your trust is our priority."</p>
+          <h3>Welcome to THE GRIP BANK!</h3>
+          <br>
+          <br>
+          <a class="get-started" href="./customers.html">Lets get Started</a>
+        </div>
+        <div class="col-md-6 col-sm-12 text-center" data-aos="fade-left">
+          <div class="hero-img-div">
+            <img class="hero-img" src="https://img.freepik.com/premium-vector/online-internet-banking-flat-concept-vector-icon-e-payment-cartoon-color-illustrations-set-mobile-money-transfer-e-wallet-financial-transaction-e-banking-isolated-graphic-design-element_106317-16098.jpg" alt="img-showing-money-transfer">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-primary">
+      <hr>
+      <div class="row text-center">
+        <div class="col-md-6">
+          <p>WEBSITE DESIGNED AND DEVELOPED BY "SONAM MISHRA"</p>
+          
+        </div>
+        <div class="col-md-6 text-center">
+            <ul class="social-icons">
+              Contact Me:
+              <li><a target="_blank" class="github" href="https://github.com/SONAMMISHRA25"><i class="fab fa-github fa-2x"></i></a></li>
+              
+              <li><a target="_blank" class="linkedin" href="https://www.linkedin.com/in/sonam-mishra-b940432a3/"><i class="fab fa-linkedin fa-2x"></i></a></li>   
+            </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      var preloader = document.getElementById("loading");
+      function loader(){
+        preloader.style.display = 'none';
+      }
+    </script>
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 700,
+      });
+    </script>
+    
+</body>
+</html>
